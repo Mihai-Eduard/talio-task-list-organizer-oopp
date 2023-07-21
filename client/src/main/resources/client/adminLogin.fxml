@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="550.0" styleClass="layout" stylesheets="@../styles/startingPage.css"
+            xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="client.controllers.popups.AdminLoginController">
+    <Group layoutX="137.0" layoutY="142.0" styleClass="text-id" AnchorPane.bottomAnchor="201.38411712646484"
+           AnchorPane.leftAnchor="137.0" AnchorPane.rightAnchor="133.0" AnchorPane.topAnchor="132.5">
+        <Text fx:id="enter_password_message" fill="BLACK" layoutY="12.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              text="or login as an admin:" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="280.0"/>
+        <TextField fx:id="password_input" layoutY="26.94921875" prefHeight="25.0" prefWidth="280.0"
+                   promptText="Admin password"/>
+    </Group>
+    <Text fx:id="connection_denied_message" fill="RED" layoutX="231.0" layoutY="500.0" strokeType="OUTSIDE"
+          strokeWidth="0.0"
+          text="Connection denied!"/>
+    <Button fx:id="done_button" layoutX="187.0" layoutY="220.0" mnemonicParsing="false" prefHeight="25.0"
+            prefWidth="170.0" text="Login" textAlignment="CENTER"/>
+    <Button fx:id="cancel_button" layoutX="187.0" layoutY="258.0" mnemonicParsing="false" prefHeight="25.0"
+            prefWidth="170.0" text="Cancel" textAlignment="CENTER"/>
+    <Text layoutX="131.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME TO TALIO"
+          textAlignment="CENTER" textOrigin="TOP" wrappingWidth="280.0" styleClass="welcome_msg"/>
+</AnchorPane>

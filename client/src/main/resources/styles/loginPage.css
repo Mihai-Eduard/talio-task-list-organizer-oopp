@@ -1,0 +1,12 @@
+.layout {
+    -fx-background: #383838;
+}
+
+.button {
+    -fx-background-color: #000;
+    -fx-text-fill: #FFF;
+    -fx-font-weight: bold;
+}
+.button:hover {
+    -fx-cursor: hand;
+}
